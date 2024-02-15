@@ -1,0 +1,63 @@
+body {
+    margin: 0 auto;
+    max-width: 1170px;
+    background-color: lightgray;
+}
+
+
+nav {
+    background-color: blue; 
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+
+
+
+header, main {
+    padding: 0 3%;
+}
+
+aside {
+    border: 5px solid darkblue;
+    padding: 3%;
+}
+
+video, embed, audio {
+    width: 80%;
+    display: block;
+    margin: 3% auto;
+}
+
+
+
+
+footer {
+    background-color: blue;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-around; */
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+
+footer a {
+    color: white;
+}
+

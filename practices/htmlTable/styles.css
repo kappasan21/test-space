@@ -1,0 +1,34 @@
+nav {
+    list-style-type: none;
+    background-color: green;
+    height: 80px;
+}
+
+nav li {
+    float: left;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+nav img {
+    height: 40px;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.search {
+    height: 50px;
+    text-align: center;
+    display: inlne-block;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 28px;
+}
